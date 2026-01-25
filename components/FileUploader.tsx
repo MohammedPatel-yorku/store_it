@@ -124,4 +124,4 @@ const FileUploader = ({ ownerId, accountId, className }: Props) => {
     </div>
   );
 };
-export default FileUploader; /*4:39:24*/
+export default FileUploader;
