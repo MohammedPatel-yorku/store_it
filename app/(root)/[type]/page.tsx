@@ -2,7 +2,7 @@ import React from "react";
 import Sort from "@/components/Sort";
 import { getFiles } from "@/lib/actions/file.actions";
 import { Models } from "node-appwrite";
-import Card from "@/components/ui/Card";
+import Card from "@/components/Card";
 
 const Page = async ({ params }: SearchParamProps) => {
   const type = ((await params)?.type as string) || "";
