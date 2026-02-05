@@ -49,4 +49,4 @@ const Page = async ({ searchParams, params }: SearchParamProps) => {
   );
 };
 
-export default Page; /*5:23:20*/
+export default Page;
