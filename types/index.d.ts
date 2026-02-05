@@ -9,8 +9,8 @@ declare interface ActionType {
 }
 
 declare interface SearchParamProps {
-  params?: Promise<SegmentParams>;
-  searchParams?: Promise<{ [key: string]: string | string[] | undefined }>;
+  params: { type?: string };
+  searchParams: { [key: string]: string | string[] | undefined };
 }
 
 declare interface UploadFileProps {
